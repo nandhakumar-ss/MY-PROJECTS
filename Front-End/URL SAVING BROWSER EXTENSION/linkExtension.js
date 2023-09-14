@@ -10,8 +10,8 @@ const locStore = JSON.parse(localStorage.getItem("linkArr"))
 
 
 if (locStore) {
-    linkie = locStore
-    printLink(linkie)
+    linkArr = locStore
+    printLink(linkArr)
 }
 
 tabBtn.addEventListener("click",function(){
