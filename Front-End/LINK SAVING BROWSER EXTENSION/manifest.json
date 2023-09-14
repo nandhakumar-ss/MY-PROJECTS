@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "BROWSER LINK SAVER",
+    "action": {
+        "default_popup": "linkExtension.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
