@@ -1,0 +1,76 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Victor Mono', monospace;
+    background-color: #EEF0F4;
+    user-select: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    height: auto;
+    margin: 30px auto;
+}
+
+#intro-logo{
+    margin: 20px auto;
+}
+
+input{
+    font-family: 'Victor Mono', monospace;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+    font-size: medium;
+    border: 3px solid #f4a68b;
+    width: 300px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#save-btn{
+    background: rgb(236,78,60);
+    background: linear-gradient(90deg, rgba(236,78,60,1) 0%, rgba(244,166,139,1) 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#save-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(244,166,139,1) 0%,rgba(236,78,60,1)  100%);
+}
+
+.material-symbols-outlined{
+    
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+    display: flex;
+    border-style: groove;
+    border: 0.5px solid #faaf22;
+    border-radius: 10px;
+    padding: 7px;
+    flex-grow: 1;
+    font-weight: bolder;
+    color: #ec5c3c;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
