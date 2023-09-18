@@ -59,16 +59,19 @@ ul{
     gap: 10px;
 }
 
-li{
+ul li{
     list-style-type: none;
     display: flex;
     border-style: groove;
     border: 0.5px solid #faaf22;
     border-radius: 10px;
     padding: 7px;
+    font-size: 20px;
     flex-grow: 1;
     font-weight: bolder;
+    text-align: center;
     color: #ec5c3c;
+    background-color: white;
 }
 
 ul li:hover{
