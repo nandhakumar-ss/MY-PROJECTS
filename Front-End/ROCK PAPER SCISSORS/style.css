@@ -1,0 +1,70 @@
+html, body{
+    background-color: blanchedalmond;
+}
+#body-container{
+    margin: 30px auto;
+    width: 50%;
+    border: 30px solid skyblue;
+    padding: 50px;
+    background-color: black;
+}
+
+#choices-container, .playing-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 50px auto;
+    
+}
+#versus{
+    font-family: 'Nabla', cursive;
+    font-size: 7vw;
+    width: 8vw;
+    padding: 30px;
+    margin: 0 2%;
+}
+
+#computer-choice, #user-choice{
+    background-color: white;
+    padding: 80px;
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+#computer-choice{
+    border: 1.5rem solid red;
+}
+
+#user-choice{
+    border: 1.5rem solid blue;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+button{
+    border: 0.5em solid greenyellow;
+    padding: 50px;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+#result-space{
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    padding: 5%;
+    border: 1rem solid gold;
+    border-radius: 50%;
+    font-size: 2vw;
+    font-family: 'Mulish', sans-serif;
+    color:seagreen;
+    font-weight: bolder;
+    text-align: center;
+}
