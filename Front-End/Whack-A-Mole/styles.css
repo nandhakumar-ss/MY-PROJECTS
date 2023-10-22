@@ -1,0 +1,53 @@
+html, body{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    margin-bottom: 0.6em;
+    text-align: center;
+    /* font-family: 'Foldit', sans-serif; */
+    font-family: 'Mulish', sans-serif;
+}
+
+#result{
+    margin: 0.6rem auto;
+    text-align: center;
+    font-size: 2em;
+    color:black;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    margin: 0px auto;
+    width: 75%;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3, minmax(25%, 200px));
+    grid-template-rows: repeat(3, minmax(25%, 200px));
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    
+}
+
+.square{
+    /* width: 200px;
+    height: 200px; */
+    padding: 10px;
+    background-color: #C2B280;
+    border-radius: 10%;
+    background-image: url('hole.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mole{
+    background: url('mole.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #C2B280;
+    background-position: center;
+}
